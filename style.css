@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    background: linear-gradient(-45deg, #ed193b, #a98055, #4c91b9, #681d7a);
+	background-size: 700% 700%;
+    align-items: center;
+    justify-content: center;
+}
+.calc{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border: 1px solid black ;
+    height: auto;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 10px;
+    padding: 10px;
+}
+select{
+    font-size: 24px;
+}
+button{
+    margin-top: 10px;
+    font-size: 24px;
+}
+div{
+    margin-top: 10px;
+    font-size: 24px;
+}
+input{
+    margin-top: 10px;
+    font-size: 24px;
+}
