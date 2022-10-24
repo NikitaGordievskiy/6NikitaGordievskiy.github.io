@@ -1,38 +1,49 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>The sixth task!</title>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta name="viewport" content="width=device-width initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <script src="js.js"></script>
-  </head>
-  <body>
-    <div class="calc">
-      <h2>Калькулятор стоимости заказа</h2>
-      <form action="/" method="POST">
-        <select name="tovarType">
-          <option value="1">Телефон</option>
-          <option value="2">Наушники</option>
-          <option value="3">Компьютер</option>
-        </select><br /> 
-        <label><input type="radio" id="phonev"></label>
-        <label><input name="kol-vo" type="text" placeholder="Введите количество товара"></label><br />
-        <div id="headphones">
-          <label><input type="radio" name="tovarOpt" value="option1" id="provod" checked="checked"> Проводные</label>
-          <label><input type="radio" name="tovarOpt" value="option2" id="unprovod"> Беспроводные</label><br />
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="slick.css"/>
+    <link rel="stylesheet" href="slick-theme.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f2d292fc5f.js" crossorigin="anonymous"></script>
+    <script src="slick.min.js"></script>
+    <title>The seventh task</title>
+</head>
+<body >
+    <h1 class="text-center">Мои любимые спортивные клубы</h1>
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-5">
+            <button type="button" class="btn btn-juliet" id="prev">
+                <i class="fa fa-arrow-circle-left text-primary"></i>
+            </button>
+            <div class="col-8 gallery">
+                <img src="1.png" alt="GSW">
+                <img src="2.jpg" alt="Chase center">
+                <img src="3.jpg" alt="Champs">
+                <img src="4.jpg" alt="Steph">
+                <img src="5.png" alt="Loko">
+                <img src="6.jpg" alt="Basket-hall">
+                <img src="7.jpg" alt="Eurocup">
+                <img src="8.jpg" alt="Malcolm">
+                <img src="9.jpg" alt="Real">
+                <img src="10.jpg" alt="Stadium">
+                <img src="11.jpg" alt="CL">
+                <img src="12.jpeg" alt="Benzema">
+                <img src="13.jpg" alt="Krasnodar">
+                <img src="14.jpg" alt="Stadium">
+                <img src="15.jpg" alt="Tr">
+                <img src="16.jpg" alt="Def">
+            </div>
+            <button type="button" class="btn btn-juliet" id="next">
+                <i class="fas fa-arrow-circle-right text-primary"></i>
+            </button>
         </div>
-        <div id="checkbox">
-          <label>
-              <input type="checkbox" name="tovarProp" id="comp"> Собрать компьютер
-          </label><br />
-        </div>
-          <button type="button" id="button">Рассчитать результат</button><br />
-          <div><span id="out"></span></div>
-      </form>
     </div>
-  </body>
+    <script src="slick.js"></script>
+</body>
 </html>
-
-
