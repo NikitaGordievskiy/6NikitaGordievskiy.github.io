@@ -34,28 +34,7 @@ $(document).ready(function () {
                     }
 
                  ]
-		
-		responsive: [
-			{
-				
-			    breakpoint: 2000,
-			
-			    settings: {
-				
-		            slidesToShow: 4,
-					
-                            slidesToScroll: 4,
-					
-                            infinite: true,
-					
-                            dots: true
-				
-                         }
-			
-                    }
 
-                 ]
-	
 	});
 
 });
